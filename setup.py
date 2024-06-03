@@ -6,6 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy>=1.23.5",
+        "matplotlib>=3.7.2"
     ],
     # Additional metadata about your package
     author='Johannes Lenfers',
