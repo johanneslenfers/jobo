@@ -21,6 +21,6 @@ pip install .
 Bayesian Optimization using a polynomial model to optimize 1D functions. 
 
 ```
-python3 examples/polynomial_bo.py
+python examples/polynomial_bo.py
 ```
 
