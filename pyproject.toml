@@ -1,0 +1,28 @@
+[project]
+name = "jobo"
+version = "0.1.0"
+description = "A Bayesian Optimiation Playground"
+authors = [{ name = "Johannes Lenfers", email = "j.lenfers@uni-muenster.de" }]
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+urls = {
+    "Homepage": "https://github.com/johanneslenfers/jobo",
+}
+dependencies = [
+    "numpy>=1.23.5",
+    "matplotlib>=3.7.2",
+]
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Optional if you have entry points such as console scripts
+# [tool.setuptools.entry_points.console_scripts]
+# baco = "baco.run:main"
